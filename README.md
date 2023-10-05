@@ -9,8 +9,7 @@
 - [Simulation and Testing](#simulation-and-testing)
 - [Results](#results)
 - [Conclusion](#conclusion)
-- [Contributions](#contributions)
-- [License](#license)
+
 
 ## Introduction
 This repository contains the project report and design files for a 4-bit nanoprocessor developed by Group 44. The nanoprocessor is capable of executing four basic instructions and includes memory for eight such instructions.
