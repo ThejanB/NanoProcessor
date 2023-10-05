@@ -1,0 +1,11 @@
+RESET : Center push button
+Register_7_output : LED (2 downto 0)
+zero_flag: LED 14
+overflow(Carry)_flag: LED 15
+
+
+# Program Rom has 8 12-bit memory slots
+# program counter value increments by 1 and stops incrementing once it value gets to 7.
+# This is done by designing RCA-bit in such a way that it changes it incrementing value from 1 to 0 once the input
+  value(PC value) is 7.
+# program adds up  numbers 1 to 3 to the register 7 cumulatively.

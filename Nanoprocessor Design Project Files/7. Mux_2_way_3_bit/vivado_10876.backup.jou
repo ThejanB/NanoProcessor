@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jul 24 14:50:56 2022
+# Process ID: 10876
+# Current directory: C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/7. Mux_2_way_3_bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9516 C:\Users\DELL\Desktop\Nanoprocessor Design Project Files\7. Mux_2_way_3_bit\Mux_2_way_3_bit.xpr
+# Log file: C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/7. Mux_2_way_3_bit/vivado.log
+# Journal file: C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/7. Mux_2_way_3_bit\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/7. Mux_2_way_3_bit/Mux_2_way_3_bit.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source Mux_2_way_Sim.tcl
+close_sim

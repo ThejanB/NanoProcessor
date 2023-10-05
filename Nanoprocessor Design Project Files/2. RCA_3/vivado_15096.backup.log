@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jul 30 16:04:39 2022
+# Process ID: 15096
+# Current directory: C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7120 C:\Users\DELL\Desktop\Nanoprocessor Design Project Files\2. RCA_3\RCA_3.xpr
+# Log file: C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/vivado.log
+# Journal file: C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/01. Engineering UOM/2. Second Semester/3. CS1050 - Computer Organization and Digital Design/2. Labs/IPs/RCA_3'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 888.402 ; gain = 138.555
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: RCA_3
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 982.328 ; gain = 82.871
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'RCA_3' [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/new/RCA_3.vhd:39]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/new/RCA_3.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/imports/new/HA.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'HA' (1#1) [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/imports/new/HA.vhd:41]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/new/RCA_3.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/imports/new/FA.vhd:56]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/imports/new/FA.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'FA' (2#1) [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/new/RCA_3.vhd:76]
+INFO: [Synth 8-256] done synthesizing module 'RCA_3' (3#1) [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/2. RCA_3/RCA_3.srcs/sources_1/new/RCA_3.vhd:39]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1037.016 ; gain = 137.559
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1037.016 ; gain = 137.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1037.016 ; gain = 137.559
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 1379.328 ; gain = 479.871
+15 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 1379.328 ; gain = 479.871
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 30 16:06:22 2022...

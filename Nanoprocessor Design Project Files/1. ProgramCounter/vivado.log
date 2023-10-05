@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jul 30 16:02:00 2022
+# Process ID: 9692
+# Current directory: C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4548 C:\Users\DELL\Desktop\Nanoprocessor Design Project Files\1. ProgramCounter\ProgramCounter.xpr
+# Log file: C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter/vivado.log
+# Journal file: C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter/ProgramCounter.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/01. Engineering UOM/2. Second Semester/3. CS1050 - Computer Organization and Digital Design/2. Labs/IPs/ProgramCounter'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 908.238 ; gain = 159.801
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: ProgramCounter
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1004.281 ; gain = 96.043
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd:41]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter/ProgramCounter.srcs/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_0' of component 'D_FF' [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'D_FF' [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter/ProgramCounter.srcs/sources_1/imports/new/D_FF.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'D_FF' (1#1) [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter/ProgramCounter.srcs/sources_1/imports/new/D_FF.vhd:42]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter/ProgramCounter.srcs/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_1' of component 'D_FF' [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd:63]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter/ProgramCounter.srcs/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_2' of component 'D_FF' [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd:71]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (2#1) [C:/Users/DELL/Desktop/Nanoprocessor Design Project Files/1. ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd:41]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1027.582 ; gain = 119.344
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1027.582 ; gain = 119.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1027.582 ; gain = 119.344
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 1377.578 ; gain = 469.340
+11 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 1377.578 ; gain = 469.340
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 30 16:04:00 2022...
